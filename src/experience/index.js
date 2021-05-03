@@ -90,7 +90,7 @@ export default function Experience(props) {
                 </Grid>
                 <Grid item>
                 <Typography variant="subtitle1">
-                    <img src={process.env.PUBLIC_URL + '/' + props.details.techno[0].framework + '.png'} style={{maxWidth: '30px', maxHeight: '30px'}}/>
+                    <img src={process.env.PUBLIC_URL + '/' + props.details.techno[0].framework + '.png'} style={{maxWidth: '30px', maxHeight: '30px'}} alt=""/>
                 </Typography>
                 </Grid>
             </Grid>
